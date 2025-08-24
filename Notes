@@ -1,37 +1,39 @@
- To get the data or code from github to our local machine then use clone statement
+## To get the data or code from github to our local machine then use clone statement
 
 syntax for it:
 --> git clone HTTP_link
 
-To Check the status git file 
+---
+## To Check the status git file 
 
 syntax:
 --> git status
 
-There are four types of status 
+### There are four types of status 
 1. Untracked - new file added that git doesnot yet track
 2. modified - changed
 3. staged - file is added but not commited
 4. unmodified - file is commited no changes are there
 
-
-To add the file and changes into repo 
+---
+## To add the file and changes into repo 
 use:
 git add "file name"
 
-To add all
+### To add all
 git add .
 
 
-Now time to commit the changes 
+## Now time to commit the changes 
 use:
 git commit -m "message to be passed"
 
-To push the changes on github account
+
+# To push the changes on github account
 use:
 git push origin main
 
-## Init command
+# Init command
 Used to create a new git repo
 
 use: 
