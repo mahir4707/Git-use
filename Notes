@@ -1,0 +1,15 @@
+ To get the data or code from github to our local machine then use clone statement
+
+syntax for it:
+--> git clone HTTP_link
+
+To Check the status git file 
+
+syntax:
+--> git status
+
+There are four types of status 
+1. Untracked - new file added that git doesnot yet track
+2. modified - changed
+3. staged - file is added but not commited
+4. unmodified - file is commited no changes are there

@@ -1,5 +1,6 @@
 # Git-use
 ## Data & AI
+Author - Mahir Sama
 This is my Git repository to learn a real and practical use of git and github.
 <br>
 ---
