@@ -13,3 +13,45 @@ There are four types of status
 2. modified - changed
 3. staged - file is added but not commited
 4. unmodified - file is commited no changes are there
+
+
+To add the file and changes into repo 
+use:
+git add "file name"
+
+To add all
+git add .
+
+
+Now time to commit the changes 
+use:
+git commit -m "message to be passed"
+
+To push the changes on github account
+use:
+git push origin main
+
+## Init command
+Used to create a new git repo
+
+use: 
+    git init
+    git remote add origin <-link->
+    git remote -v  (to verify remote)
+    git branch  (to check branch)
+    git branch -M main  (to rename branch)
+    git push origin main
+
+
+# Workflow
+Github repo create
+        |
+Clone
+        |
+changes
+        |
+Add
+        |
+Commit
+        |
+push
